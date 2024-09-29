@@ -35,10 +35,18 @@ What you need to install the software and how to install them:
    ```bash
     mvn test
    ```
-4. **After Running Test To View Execution Report:** 
-  ![img.png](img.png)
+4. **After Running Test To View Execution Report:**
+   ![img.png](readMeData/extenReport1.png)
+  ![img.png](readMeData/img.png)
 
 
+
+## Feature of Framework
+
+1. *Clean Code And Project Structure Implemented*
+2. *logging and extent report integration*
+![img.png](readMeData/extenReport1.png)
+3. *parallel execution and reporting support*
 
 
 Folder Structure
@@ -55,10 +63,11 @@ Folder Structure
 └───test
     └───java
          └───com
-             └───vinod - Contains Test Cases
-                  
-
-
+             └───vinod 
+                  ├───Listners - Listner Implmented for Reporting
+                  └───Test - Contains Test Cases
+             
+```
 
 
 

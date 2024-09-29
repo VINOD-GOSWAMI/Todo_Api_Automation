@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 import java.util.List;
 
 @Slf4j
-public class FanCodeUserTodoTest {
+public class FanCodeUserTodoTest extends BaseTest{
 
     private final UserService userService = new UserService();
     private final TodoService todoService = new TodoService();
@@ -30,6 +30,5 @@ public class FanCodeUserTodoTest {
             }
         }
     }
-
 
 }
